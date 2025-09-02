@@ -1,0 +1,131 @@
+.sidebar {
+  display: flex;
+  height: 100vh;
+  width: 4rem;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #e5e7eb;
+  background-color: #ffffff;
+}
+
+.sidebar__avatar {
+  display: inline-flex;
+  width: 4rem;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar__avatar-image {
+  border-radius: 50%;
+}
+
+.sidebar__divider {
+  border-top: 1px solid #e5e7eb;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.sidebar__projects {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.125rem;
+  padding: 1rem 0.5rem 0.5rem;
+
+  &--active {
+    background-color: #eff6ff;
+    color: #1d4ed8;
+  }
+}
+
+.sidebar__icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  opacity: 0.75;
+
+  &--large {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.sidebar__tooltip {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-left: 1rem;
+  transform: translateY(-50%);
+  border-radius: 0.125rem;
+  background-color: #111827;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #ffffff;
+  visibility: hidden;
+  white-space: nowrap;
+}
+
+.sidebar__projects:hover .sidebar__tooltip,
+.sidebar__item:hover .sidebar__tooltip,
+.sidebar__logout:hover .sidebar__tooltip {
+  visibility: visible;
+}
+
+.sidebar__menu {
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0.5rem 0;
+  border-top: 1px solid #e5e7eb;
+
+  li {
+    margin-bottom: 0.25rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.sidebar__item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.125rem;
+  padding: 0.5rem;
+  color: #6b7280;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover {
+    background-color: #f9fafb;
+    color: #374151;
+  }
+}
+
+.sidebar__footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  padding: 0.5rem;
+}
+
+.sidebar__logout {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover {
+    background-color: #f9fafb;
+    color: #374151;
+  }
+}
