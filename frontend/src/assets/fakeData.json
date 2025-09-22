@@ -1,0 +1,724 @@
+{
+  "electronics": [
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Yahoo",
+      "name": "Integer tincidunt",
+      "modelyear": 2001,
+      "price": 7.91
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Google",
+      "name": "nulla vulputate dui,",
+      "modelyear": 1981,
+      "price": 26.2
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Lavasoft",
+      "name": "turpis. In condimentum. Donec",
+      "modelyear": 1990,
+      "price": 13.09
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Microsoft",
+      "name": "lectus rutrum urna, nec",
+      "modelyear": 2004,
+      "price": 25.62
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Adobe",
+      "name": "id risus quis",
+      "modelyear": 1982,
+      "price": 68.31
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Cakewalk",
+      "name": "tincidunt orci quis",
+      "modelyear": 2001,
+      "price": 41.19
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Lavasoft",
+      "name": "ipsum. Suspendisse",
+      "modelyear": 1985,
+      "price": 36.33
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Chami",
+      "name": "eleifend non,",
+      "modelyear": 1973,
+      "price": 45.06
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Microsoft",
+      "name": "amet",
+      "modelyear": 1986,
+      "price": 61.1
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Google",
+      "name": "eu lacus.",
+      "modelyear": 1998,
+      "price": 84.06
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Chami",
+      "name": "Suspendisse aliquet, sem ut cursus",
+      "modelyear": 1992,
+      "price": 6.73
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Chami",
+      "name": "elit fermentum risus,",
+      "modelyear": 2014,
+      "price": 26.38
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Cakewalk",
+      "name": "Duis",
+      "modelyear": 1976,
+      "price": 58.45
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Google",
+      "name": "leo elementum sem, vitae",
+      "modelyear": 2009,
+      "price": 68.9
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Chami",
+      "name": "dictum sapien. Aenean",
+      "modelyear": 1996,
+      "price": 83.32
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Chami",
+      "name": "a tortor.",
+      "modelyear": 1989,
+      "price": 19.75
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Google",
+      "name": "porttitor",
+      "modelyear": 1993,
+      "price": 80.03
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Chami",
+      "name": "In faucibus. Morbi vehicula.",
+      "modelyear": 1997,
+      "price": 95.12
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Google",
+      "name": "fermentum fermentum arcu. Vestibulum",
+      "modelyear": 1993,
+      "price": 49.39
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Adobe",
+      "name": "amet ante.",
+      "modelyear": 2018,
+      "price": 28.07
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Yahoo",
+      "name": "Nunc",
+      "modelyear": 1997,
+      "price": 42.4
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Lavasoft",
+      "name": "dis parturient montes, nascetur",
+      "modelyear": 1984,
+      "price": 49.35
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Borland",
+      "name": "laoreet ipsum. Curabitur",
+      "modelyear": 2011,
+      "price": 74.96
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Lavasoft",
+      "name": "tortor at risus.",
+      "modelyear": 2003,
+      "price": 50.31
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Apple",
+      "name": "ac ipsum.",
+      "modelyear": 1977,
+      "price": 51.3
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Lavasoft",
+      "name": "elementum at, egestas",
+      "modelyear": 1983,
+      "price": 31.11
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Chami",
+      "name": "ultricies adipiscing, enim",
+      "modelyear": 1978,
+      "price": 39.48
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Finale",
+      "name": "vitae odio sagittis semper. Nam",
+      "modelyear": 1979,
+      "price": 45.0
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Adobe",
+      "name": "per conubia nostra, per",
+      "modelyear": 1993,
+      "price": 92.2
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Lavasoft",
+      "name": "Donec tincidunt. Donec",
+      "modelyear": 1988,
+      "price": 50.33
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Sibelius",
+      "name": "Integer id magna et ipsum",
+      "modelyear": 1982,
+      "price": 45.03
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Apple",
+      "name": "viverra. Donec tempus,",
+      "modelyear": 2021,
+      "price": 87.47
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Lavasoft",
+      "name": "nec",
+      "modelyear": 1992,
+      "price": 42.5
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Borland",
+      "name": "inceptos hymenaeos. Mauris ut quam",
+      "modelyear": 1974,
+      "price": 74.95
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Borland",
+      "name": "nec urna et",
+      "modelyear": 2007,
+      "price": 68.18
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Google",
+      "name": "quam vel",
+      "modelyear": 2026,
+      "price": 96.32
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Chami",
+      "name": "semper",
+      "modelyear": 1973,
+      "price": 58.31
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Adobe",
+      "name": "mauris. Morbi non sapien",
+      "modelyear": 1996,
+      "price": 55.76
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Adobe",
+      "name": "erat nonummy ultricies ornare, elit",
+      "modelyear": 2025,
+      "price": 55.72
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Finale",
+      "name": "Pellentesque ut",
+      "modelyear": 2015,
+      "price": 53.25
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Adobe",
+      "name": "pellentesque. Sed dictum. Proin",
+      "modelyear": 2026,
+      "price": 50.07
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Lavasoft",
+      "name": "vitae, posuere at, velit.",
+      "modelyear": 2006,
+      "price": 18.67
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Yahoo",
+      "name": "ipsum sodales purus, in",
+      "modelyear": 1997,
+      "price": 34.73
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Yahoo",
+      "name": "velit eu sem. Pellentesque",
+      "modelyear": 2011,
+      "price": 6.36
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Finale",
+      "name": "interdum. Nunc sollicitudin",
+      "modelyear": 2018,
+      "price": 92.55
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Adobe",
+      "name": "aliquet diam. Sed diam",
+      "modelyear": 2004,
+      "price": 16.91
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Cakewalk",
+      "name": "mauris elit, dictum eu,",
+      "modelyear": 2011,
+      "price": 9.7
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Cakewalk",
+      "name": "ut",
+      "modelyear": 2009,
+      "price": 62.89
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Cakewalk",
+      "name": "malesuada. Integer id magna",
+      "modelyear": 2001,
+      "price": 88.81
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Microsoft",
+      "name": "egestas. Fusce",
+      "modelyear": 1982,
+      "price": 11.62
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Finale",
+      "name": "orci, adipiscing non,",
+      "modelyear": 1990,
+      "price": 9.31
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Yahoo",
+      "name": "mauris id sapien. Cras dolor",
+      "modelyear": 2019,
+      "price": 74.18
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Apple",
+      "name": "sed dui.",
+      "modelyear": 2021,
+      "price": 47.82
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Amazon",
+      "name": "nisl",
+      "modelyear": 1990,
+      "price": 19.84
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Google",
+      "name": "lorem, eget mollis lectus",
+      "modelyear": 1998,
+      "price": 82.4
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Apple",
+      "name": "tellus. Nunc",
+      "modelyear": 1984,
+      "price": 54.27
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Lavasoft",
+      "name": "Duis sit amet",
+      "modelyear": 2002,
+      "price": 82.06
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Adobe",
+      "name": "senectus et netus et",
+      "modelyear": 2001,
+      "price": 13.3
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Amazon",
+      "name": "molestie in, tempus",
+      "modelyear": 2005,
+      "price": 42.99
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Apple",
+      "name": "ipsum primis in faucibus orci",
+      "modelyear": 1983,
+      "price": 99.22
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Chami",
+      "name": "sem ut",
+      "modelyear": 1976,
+      "price": 68.89
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Google",
+      "name": "nec, eleifend non, dapibus",
+      "modelyear": 1975,
+      "price": 78.88
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Adobe",
+      "name": "accumsan interdum libero dui nec",
+      "modelyear": 1978,
+      "price": 33.52
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Chami",
+      "name": "a feugiat",
+      "modelyear": 1986,
+      "price": 71.3
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Microsoft",
+      "name": "Curabitur sed tortor. Integer",
+      "modelyear": 2019,
+      "price": 91.95
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Apple",
+      "name": "sit amet risus. Donec egestas.",
+      "modelyear": 2008,
+      "price": 39.11
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Adobe",
+      "name": "blandit at, nisi.",
+      "modelyear": 2000,
+      "price": 10.81
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Apple",
+      "name": "convallis dolor. Quisque tincidunt",
+      "modelyear": 2018,
+      "price": 27.33
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Adobe",
+      "name": "Quisque tincidunt pede ac",
+      "modelyear": 1976,
+      "price": 62.84
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Adobe",
+      "name": "odio. Etiam ligula tortor,",
+      "modelyear": 1978,
+      "price": 32.55
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Chami",
+      "name": "Nunc mauris",
+      "modelyear": 1986,
+      "price": 21.91
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Finale",
+      "name": "eget laoreet posuere, enim",
+      "modelyear": 2006,
+      "price": 9.96
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Microsoft",
+      "name": "aliquet magna a",
+      "modelyear": 1985,
+      "price": 44.18
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Apple",
+      "name": "lectus, a sollicitudin orci",
+      "modelyear": 1999,
+      "price": 41.56
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Microsoft",
+      "name": "hendrerit. Donec",
+      "modelyear": 2017,
+      "price": 64.38
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Adobe",
+      "name": "Donec sollicitudin adipiscing ligula.",
+      "modelyear": 2017,
+      "price": 37.97
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Cakewalk",
+      "name": "Vestibulum ut",
+      "modelyear": 1977,
+      "price": 23.86
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Sibelius",
+      "name": "dolor quam,",
+      "modelyear": 2023,
+      "price": 77.96
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Finale",
+      "name": "adipiscing, enim mi",
+      "modelyear": 2026,
+      "price": 96.42
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Yahoo",
+      "name": "In lorem.",
+      "modelyear": 2016,
+      "price": 90.66
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Google",
+      "name": "Quisque imperdiet, erat nonummy",
+      "modelyear": 1980,
+      "price": 9.66
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Microsoft",
+      "name": "luctus aliquet odio.",
+      "modelyear": 1998,
+      "price": 16.78
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Apple",
+      "name": "et tristique",
+      "modelyear": 2003,
+      "price": 26.13
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Sibelius",
+      "name": "In",
+      "modelyear": 2019,
+      "price": 37.91
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Cakewalk",
+      "name": "tempor lorem, eget",
+      "modelyear": 1976,
+      "price": 67.5
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Chami",
+      "name": "a, aliquet vel, vulputate eu,",
+      "modelyear": 2012,
+      "price": 25.54
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Cakewalk",
+      "name": "vulputate, lacus.",
+      "modelyear": 1994,
+      "price": 45.8
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Yahoo",
+      "name": "enim nisl elementum purus,",
+      "modelyear": 2018,
+      "price": 98.83
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Sibelius",
+      "name": "ac",
+      "modelyear": 1982,
+      "price": 37.2
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Lavasoft",
+      "name": "ante",
+      "modelyear": 2012,
+      "price": 31.02
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Borland",
+      "name": "quis diam luctus",
+      "modelyear": 1987,
+      "price": 27.6
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Chami",
+      "name": "placerat velit. Quisque varius. Nam",
+      "modelyear": 1975,
+      "price": 44.33
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Lavasoft",
+      "name": "egestas. Sed pharetra, felis eget",
+      "modelyear": 2014,
+      "price": 68.09
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Finale",
+      "name": "Vivamus nisi. Mauris nulla. Integer",
+      "modelyear": 1989,
+      "price": 63.42
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Amazon",
+      "name": "nec, euismod in, dolor.",
+      "modelyear": 2012,
+      "price": 72.4
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Yahoo",
+      "name": "eu",
+      "modelyear": 2005,
+      "price": 35.2
+    },
+    {
+      "electronicstype": "Speaker",
+      "brand": "Microsoft",
+      "name": "in lobortis",
+      "modelyear": 1979,
+      "price": 36.94
+    },
+    {
+      "electronicstype": "Camera",
+      "brand": "Yahoo",
+      "name": "vitae sodales nisi",
+      "modelyear": 1980,
+      "price": 82.11
+    },
+    {
+      "electronicstype": "Smoke Detector",
+      "brand": "Lavasoft",
+      "name": "adipiscing elit.",
+      "modelyear": 1995,
+      "price": 75.58
+    },
+    {
+      "electronicstype": "Fire Alarm",
+      "brand": "Chami",
+      "name": "auctor quis, tristique ac, eleifend",
+      "modelyear": 1995,
+      "price": 81.24
+    }
+  ],
+  "projects": [
+    {
+      "projectname": "Project Alpha",
+      "postalcode": "Client A",
+      "budget": 10000,
+      "status": "In Progress"
+    },
+    {
+      "name": "Project Beta",
+      "client": "Client B",
+      "budget": 15000,
+      "status": "Completed"
+    },
+    {
+      "name": "Project Gamma",
+      "client": "Client C",
+      "budget": 20000,
+      "status": "Pending"
+    }
+  ]
+}
