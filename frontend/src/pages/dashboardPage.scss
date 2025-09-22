@@ -1,0 +1,10 @@
+@use "../components/a_tag_btn.scss";
+
+.dashboardPage {
+  display: flex;
+
+  &__content {
+    flex: 1;
+    padding: 1rem;
+  }
+}
