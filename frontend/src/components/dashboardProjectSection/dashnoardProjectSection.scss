@@ -1,0 +1,84 @@
+.project {
+  &__new {
+    margin: 12px auto;
+    align-items: center;
+    button {
+      border: 2px solid #0044ff;
+      border-radius: 5px;
+      padding: 10px;
+
+      &:hover {
+        background-color: #5a7bd9;
+        color: white;
+        font-weight: 500;
+      }
+    }
+
+    &-form {
+      padding: 20px;
+      border: 2px solid #7997e9;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+
+      input,
+      textarea {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+
+        &:focus {
+          outline: none;
+          border-color: #7997e9;
+        }
+      }
+
+      textarea {
+        resize: vertical;
+      }
+    }
+  }
+
+  &__list {
+    overflow-x: hidden;
+    margin: 12px auto;
+    border: 2px solid #7997e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    table {
+      min-width: 100%;
+      thead {
+        text-align: center;
+
+        tr {
+          background-color: #7997e9;
+          color: white;
+          th {
+            padding: 8px 12px;
+            white-space: nowrap;
+          }
+        }
+      }
+      tbody {
+        tr {
+          text-align: center;
+          td {
+            padding: 12px;
+            white-space: nowrap;
+          }
+
+          &:nth-child(odd) {
+            background-color: #f9f9f9;
+          }
+          &:nth-child(even) {
+            background-color: #ffffff;
+          }
+          &:hover {
+            background-color: #d8dce7;
+          }
+        }
+      }
+    }
+  }
+}
