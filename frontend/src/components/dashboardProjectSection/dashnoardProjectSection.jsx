@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./dashnoardProjectSection.scss";
+import { Axios } from "axios";
 
 const DashboardProjectSection = () => {
   const [showForm, setShowForm] = useState(false);
@@ -16,8 +17,14 @@ const DashboardProjectSection = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    try {
+      const response = await Axios.post("/api/project", formData);
+      console.log("Project added successfully:", response.data);
+    } catch (error) {
+      console.error("Error adding project:", error);
+    }
     console.log(formData);
     // Reset form and hide
     setFormData({
@@ -41,7 +48,7 @@ const DashboardProjectSection = () => {
         )}
         {showForm && (
           <form onSubmit={handleSubmit} className="project__new-form">
-            <div className="row">
+            <div className="row justify-content-between">
               <input
                 type="text"
                 name="projectName"
@@ -49,6 +56,7 @@ const DashboardProjectSection = () => {
                 onChange={handleChange}
                 placeholder="Project Name"
                 required
+                className="col"
               />
               <input
                 type="text"
@@ -57,6 +65,7 @@ const DashboardProjectSection = () => {
                 onChange={handleChange}
                 placeholder="Building Number"
                 required
+                className="col mx-3"
               />
               <input
                 type="text"
@@ -65,36 +74,46 @@ const DashboardProjectSection = () => {
                 onChange={handleChange}
                 placeholder="Postal Code"
                 required
+                className="col"
               />
             </div>
-            <textarea
-              name="Address"
-              value={formData.Address}
-              onChange={handleChange}
-              placeholder="Address"
-              rows="4"
-              required
-            />
-            <input
-              type="number"
-              name="totalFloors"
-              value={formData.totalFloors}
-              onChange={handleChange}
-              placeholder="Total Floors"
-              required
-            />
-            <input
-              type="number"
-              name="totalUnits"
-              value={formData.totalUnits}
-              onChange={handleChange}
-              placeholder="Total Units"
-              required
-            />
-            <button type="submit">Submit</button>
-            <button type="button" onClick={() => setShowForm(false)}>
-              Cancel
-            </button>
+            <div className="row my-3">
+              <div className="col px-0 justify-content-between d-flex">
+                <input
+                  type="number"
+                  name="totalFloors"
+                  value={formData.totalFloors}
+                  onChange={handleChange}
+                  placeholder="Total Floors"
+                  required
+                  className="col"
+                />
+                <input
+                  type="number"
+                  name="totalUnits"
+                  value={formData.totalUnits}
+                  onChange={handleChange}
+                  placeholder="Total Units"
+                  required
+                  className="col mx-3"
+                />
+              </div>
+              <input
+                name="Address"
+                value={formData.Address}
+                onChange={handleChange}
+                placeholder="Address"
+                rows="4"
+                required
+                className="col"
+              />
+            </div>
+            <div className="row justify-content-center">
+              <button type="button" onClick={() => setShowForm(false)}>
+                Cancel
+              </button>
+              <button type="submit">Submit</button>
+            </div>
           </form>
         )}
       </div>
