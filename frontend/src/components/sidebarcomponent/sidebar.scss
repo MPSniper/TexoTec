@@ -11,15 +11,12 @@
 }
 
 .sidebar__avatar {
-  display: inline-flex;
-  width: 4rem;
-  height: 4rem;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   padding: 5px;
 }
 
 .sidebar__avatar-image {
+  width: 50px;
   border-radius: 50%;
 }
 
