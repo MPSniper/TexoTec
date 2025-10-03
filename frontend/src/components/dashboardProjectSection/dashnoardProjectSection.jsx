@@ -1,16 +1,19 @@
 import React, { useState } from "react";
 import "./dashnoardProjectSection.scss";
-import { Axios } from "axios";
+import axios from "axios";
 
 const DashboardProjectSection = () => {
   const [showForm, setShowForm] = useState(false);
   const [formData, setFormData] = useState({
-    projectName: "",
+    buildingName: "",
     buildingNumber: "",
-    PostalCode: "",
-    Address: "",
+    postalCode: "",
+    address: "",
     totalFloors: "",
     totalUnits: "",
+    apartmentUnits: [],
+    commonAreas: [],
+    totalMaintenanceCost: 0,
   });
 
   const handleChange = (e) => {
@@ -20,18 +23,21 @@ const DashboardProjectSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await Axios.post("/api/project", formData);
+      const response = await axios.post(
+        "http://localhost:5000/api/building",
+        formData
+      );
       console.log("Project added successfully:", response.data);
     } catch (error) {
       console.error("Error adding project:", error);
     }
-    console.log(formData);
+    // console.log(formData);
     // Reset form and hide
     setFormData({
-      projectName: "",
+      buildingName: "",
       buildingNumber: "",
-      PostalCode: "",
-      Address: "",
+      postalCode: "",
+      address: "",
       totalFloors: "",
       totalUnits: "",
     });
@@ -51,8 +57,8 @@ const DashboardProjectSection = () => {
             <div className="row justify-content-between">
               <input
                 type="text"
-                name="projectName"
-                value={formData.projectName}
+                name="buildingName"
+                value={formData.buildingName}
                 onChange={handleChange}
                 placeholder="Project Name"
                 required
@@ -69,8 +75,8 @@ const DashboardProjectSection = () => {
               />
               <input
                 type="text"
-                name="PostalCode"
-                value={formData.PostalCode}
+                name="postalCode"
+                value={formData.postalCode}
                 onChange={handleChange}
                 placeholder="Postal Code"
                 required
@@ -99,8 +105,8 @@ const DashboardProjectSection = () => {
                 />
               </div>
               <input
-                name="Address"
-                value={formData.Address}
+                name="address"
+                value={formData.address}
                 onChange={handleChange}
                 placeholder="Address"
                 rows="4"
