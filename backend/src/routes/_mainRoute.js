@@ -1,13 +1,13 @@
 import express from "express";
-import projectRoute from "./projectRoute.js";
+import buildingRoute from "./buildingRoute.js";
 import electronicsRoute from "./electronicsRoute.js";
 
 const router = express.Router();
 
 const defaultRoutes = [
   {
-    path: "/project",
-    route: projectRoute,
+    path: "/building",
+    route: buildingRoute,
   },
   {
     path: "/electronics",

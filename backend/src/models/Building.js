@@ -38,7 +38,7 @@ const commonAreaSchema = new mongoose.Schema({
 // The main schema for Building documents
 const buildingSchema = new mongoose.Schema(
   {
-    name: { type: String, required: true },
+    buildingName: { type: String, required: true },
     buildingNumber: { type: Number, required: true },
     postalCode: { type: String, required: true },
     address: { type: String, required: true },
