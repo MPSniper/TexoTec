@@ -1,0 +1,13 @@
+.project__page {
+  width: 60%;
+  margin: 20px auto;
+  border: rgb(63, 33, 255) 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+  //   background-color: #eeeeee;
+  &-details {
+    p {
+      font-weight: 600;
+    }
+  }
+}
