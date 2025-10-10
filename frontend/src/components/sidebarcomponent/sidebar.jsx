@@ -4,12 +4,12 @@ import ProfileAvatar from "../../assets/profile avatar.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
-  faCreditCard,
   faFileLines,
   faUser,
 } from "@fortawesome/free-regular-svg-icons";
 import {
   faUsers,
+  faWarehouse,
   faArrowRightFromBracket,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -49,11 +49,11 @@ const sidebar = () => {
               <li>
                 <a href="#" className="sidebar__item">
                   <FontAwesomeIcon
-                    icon={faCreditCard}
+                    icon={faWarehouse}
                     className="sidebar__icon"
                   />
 
-                  <span className="sidebar__tooltip">Billing</span>
+                  <span className="sidebar__tooltip">Warehouse</span>
                 </a>
               </li>
 
