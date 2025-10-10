@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import "./dashnoardProjectSection.scss";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router";
+import "./projectSection.scss";
 
-const DashboardProjectSection = () => {
+const ProjectSection = () => {
   const [showForm, setShowForm] = useState(false);
   const [formData, setFormData] = useState({
     buildingName: "",
@@ -15,6 +16,16 @@ const DashboardProjectSection = () => {
     commonAreas: [],
     totalMaintenanceCost: 0,
   });
+  const [projects, setProjects] = useState([]);
+
+  const fetchProjects = async () => {
+    try {
+      const response = await axios.get("http://localhost:5000/api/building");
+      setProjects(response.data);
+    } catch (error) {
+      console.error("Error fetching projects:", error);
+    }
+  };
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -28,10 +39,11 @@ const DashboardProjectSection = () => {
         formData
       );
       console.log("Project added successfully:", response.data);
+      // Refetch projects to update the list
+      await fetchProjects();
     } catch (error) {
       console.error("Error adding project:", error);
     }
-    // console.log(formData);
     // Reset form and hide
     setFormData({
       buildingName: "",
@@ -43,6 +55,10 @@ const DashboardProjectSection = () => {
     });
     setShowForm(false);
   };
+
+  useEffect(() => {
+    fetchProjects();
+  }, []);
 
   return (
     <div className="project">
@@ -129,24 +145,26 @@ const DashboardProjectSection = () => {
             <tr>
               <th>Project Name</th>
               <th>Postal Code</th>
-              <th>Status</th>
+              <th>Address</th>
               <th>Total Cost</th>
               <th>Click to Go</th>
             </tr>
           </thead>
 
           <tbody>
-            <tr>
-              <td>Nandor the Relentless</td>
-              <td>1234567890</td>
-              <td>15</td>
-              <td>$0</td>
-              <td>
-                <a className="a-tag-button" href="#">
-                  Go to Project
-                </a>
-              </td>
-            </tr>
+            {projects.map((project) => (
+              <tr key={project._id}>
+                <td>{project.buildingName}</td>
+                <td>{project.postalCode}</td>
+                <td>{project.address}</td>
+                <td>{project.totalMaintenanceCost}</td>
+                <td>
+                  <Link to={`/project/${project._id}`} className="a-tag-button">
+                    Go to Project
+                  </Link>
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
@@ -154,4 +172,4 @@ const DashboardProjectSection = () => {
   );
 };
 
-export default DashboardProjectSection;
+export default ProjectSection;
