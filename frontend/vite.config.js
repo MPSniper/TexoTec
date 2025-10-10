@@ -10,4 +10,11 @@ export default defineConfig({
       "~bootstrap": path.resolve("node_modules/bootstrap"),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        silenceDeprecations: ["import", "color-functions", "global-builtin"],
+      },
+    },
+  },
 });
